@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PetShop Mackenzie - Contato</title>
+    <link rel="stylesheet" href="styles/index.css">
+  </head>
+  <body>
+    <header>
+      <h1>PetShop Mackenzie</h1>
+      <nav>
+        <a href="index.html">Início</a>
+        <a href="products.html">Produtos</a>
+      </nav>
+    </header>
+
+    <div class="image-background">
+      <h2>Fale Conosco</h2>
+      <p>Estamos à disposição para atender você e seu pet!</p>
+    </div>
+
+    <div class="container">
+      <section class="contact-form">
+        <h3>Envie sua mensagem</h3>
+        <form action="#" method="POST">
+          <table>
+            <tr>
+              <td><label for="name">Nome:</label></td>
+              <td><input type="text" id="name" name="name" required /></td>
+            </tr>
+            <tr>
+              <td><label for="email">E-mail:</label></td>
+              <td><input type="email" id="email" name="email" required /></td>
+            </tr>
+            <tr>
+              <td><label for="phone">Telefone:</label></td>
+              <td><input type="tel" id="phone" name="phone" required /></td>
+            </tr>
+            <tr>
+              <td><label for="subject">Assunto:</label></td>
+              <td><input type="text" id="subject" name="subject" required /></td>
+            </tr>
+            <tr>
+              <td><label for="message">Mensagem:</label></td>
+              <td><textarea id="message" name="message" rows="5" required></textarea></td>
+            </tr>
+            <tr>
+              <td><label for="newsletter">Gostaria de receber novidades?</label></td>
+              <td>
+                <input type="checkbox" id="newsletter" name="newsletter" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="contact-preference">Como prefere ser contatado?</label></td>
+              <td>
+                <select id="contact-preference" name="contact-preference">
+                  <option value="email">E-mail</option>
+                  <option value="phone">Telefone</option>
+                </select>
+              </td>
+            </tr>
+          </table>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </div>
+
+    <footer>&copy; 2025 PetShop Mackenzie - Todos os direitos reservados.</footer>
+  </body>
+</html>
