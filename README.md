@@ -1,4 +1,4 @@
-# Repositório de Projetos - Análise e Desenvolvimento de Sistemas (ADS)
+# Material Acadêmico - Análise e Desenvolvimento de Sistemas (ADS)
 
 Este repositório é dedicado ao meu curso de **Análise e Desenvolvimento de Sistemas (ADS)** na **Universidade Presbiteriana Mackenzie**. Aqui você encontrará os projetos, exercícios e materiais desenvolvidos ao longo do curso, abordando diversas áreas da programação, arquitetura de sistemas, banco de dados e outros tópicos fundamentais para minha formação acadêmica.
 
@@ -10,7 +10,7 @@ Este repositório serve como um espaço para armazenar os códigos-fonte, relat�
 
 ---
 
-## 🔧 Tecnologias e Ferramentas
+## 🛠 Tecnologias e Ferramentas
 
 Nos projetos deste repositório, utilizei várias tecnologias e ferramentas. Algumas das principais são:
 
@@ -23,7 +23,7 @@ Nos projetos deste repositório, utilizei várias tecnologias e ferramentas. Alg
   - Git e GitHub para controle de versão
   - MySQL, PostgreSQL para banco de dados
 
-## 🚀 Projetos e Exercícios
+## 💻 Projetos e Exercícios
 
 Este repositório contém uma coleção dos seguintes materiais:
 
@@ -32,13 +32,13 @@ Este repositório contém uma coleção dos seguintes materiais:
 
 ---
 
-## 📄 Licença
+## 📝 Licença
 
 Este repositório e os projetos nele contidos estão sob a licença **MIT**. Para mais detalhes, consulte o arquivo [LICENSE](./LICENSE).
 
 ---
 
-## 👨‍🎓 Autor
+## 👨🏻‍🎓 Autor
 
 Feito por **Murillo Ressineti Silva**, aluno do curso de Análise e Desenvolvimento de Sistemas na Universidade Presbiteriana Mackenzie. Você pode me encontrar no LinkedIn para mais informações ou dúvidas:
 
