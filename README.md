@@ -42,7 +42,7 @@ Este repositório e os projetos nele contidos estão sob a licença **MIT**. Par
 
 Feito por **Murillo Ressineti Silva**, aluno do curso de Análise e Desenvolvimento de Sistemas na Universidade Presbiteriana Mackenzie. Você pode me encontrar no LinkedIn para mais informações ou dúvidas:
 
-[![Linkedin Badge](https://img.shields.io/badge/-Murillo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/murilloressineti/)](https://www.linkedin.com/in/murilloressineti/)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/murilloressineti/)
 
 ---
 
