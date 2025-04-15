@@ -40,7 +40,7 @@ Este repositório e os projetos nele contidos estão sob a licença **MIT**. Par
 
 ## 👨🏻‍🎓 Autor
 
-Feito por **Murillo Ressineti Silva**, aluno do curso de Análise e Desenvolvimento de Sistemas na Universidade Presbiteriana Mackenzie. Você pode me encontrar no LinkedIn para mais informações ou dúvidas:
+Feito por **Murillo Ressineti**, aluno do curso de Análise e Desenvolvimento de Sistemas na Universidade Presbiteriana Mackenzie. Você pode me encontrar no LinkedIn para mais informações ou dúvidas:
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/murilloressineti/)
 
