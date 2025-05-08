@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: #333;
+}
+
+#arrayInfo, #filtroCor {
+  background-color: #fff;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+img {
+  max-width: 150px;
+  margin-top: 10px;
+}

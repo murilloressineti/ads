@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício 1 - Cidade</title>
+</head>
+<body>
+  <h1>Sua Cidade</h1>
+  <img id="cidade" src="" alt="Cidade" width="500">
+
+  <script>
+    const resposta = confirm("Você mora na cidade de São Paulo?");
+    const imagem = document.getElementById("cidade");
+
+    if (resposta) {
+      imagem.src = "sao-paulo.jpg";
+    } else {
+      imagem.src = "guarulhos.jpg";
+    }
+  </script>
+</body>
+</html>

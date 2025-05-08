@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício 2 - Notas</title>
+</head>
+<body>
+  <h1>Média das Notas</h1>
+  <p id="media"></p>
+
+  <script>
+    let notas = [];
+    for (let i = 1; i <= 4; i++) {
+      let nota = parseFloat(prompt(`Digite a nota ${i}:`));
+      notas.push(nota);
+    }
+
+    alert("Suas notas foram:\n" + notas.join(", "));
+
+    let soma = notas.reduce((total, nota) => total + nota, 0);
+    let media = soma / notas.length;
+
+    document.getElementById("media").innerText = "Média: " + media.toFixed(2);
+  </script>
+</body>
+</html>

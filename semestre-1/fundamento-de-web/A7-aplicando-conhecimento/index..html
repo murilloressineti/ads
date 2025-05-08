@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Times de Futebol</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Meus Times Favoritos</h1>
+
+      <section>
+        <h2>Filtrar por cor predominante</h2>
+        <label for="corSelect">Escolha uma cor:</label>
+        <select id="corSelect">
+          <option value="">-- Escolha uma cor --</option>
+          <option value="preto">Preto</option>
+          <option value="verde">Verde</option>
+          <option value="vermelho">Vermelho</option>
+        </select>
+        <button onclick="filtrarPorCor()">Mostrar informações</button>
+
+        <div id="filtroCor" class="box"></div>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Todos os Times</h2>
+        <div id="arrayInfo" class="box"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
