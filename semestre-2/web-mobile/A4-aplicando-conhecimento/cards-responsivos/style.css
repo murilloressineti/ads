@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #f0f4f7 0%, #e0e6eb 100%);
+  color: #333;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.planos-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.plano {
+  background-color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.plano:hover {
+  transform: translateY(-5px);
+}
+
+.plano-header {
+  margin-bottom: 20px;
+}
+
+.plano h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icone-titulo {
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+
+.icone-plano {
+  font-size: 3.5em;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.preco {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.mes {
+  font-size: 0.5em;
+  font-weight: normal;
+  color: #7f8c8d;
+}
+
+.recursos-lista {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.recursos-lista li {
+  padding: 8px 0;
+  border-bottom: 1px dashed #ecf0f1;
+  font-size: 1.1em;
+}
+
+.recursos-lista li:last-child {
+  border-bottom: none;
+}
+
+.icone-status {
+  margin-right: 8px;
+  /* Ajuste para garantir que ícones de lista Material Icons sejam tratados como ícones */
+  font-size: 1em;
+}
+
+.verde {
+  color: #27ae60;
+}
+
+.vermelho {
+  color: #e74c3c;
+}
+
+.btn-comprar {
+  display: inline-block;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+}
+
+.basico {
+  border-top: 5px solid #3498db;
+}
+.basico .icone-plano {
+  color: #3498db;
+}
+.basico .icone-titulo {
+  color: #3498db;
+}
+.basico .btn-comprar {
+  background-color: #3498db;
+  color: #fff;
+}
+.basico .btn-comprar:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+.padrao {
+  border-top: 5px solid #f1c40f;
+}
+.padrao .icone-plano {
+  color: #f1c40f;
+}
+.padrao .icone-titulo {
+  color: #f1c40f;
+}
+.padrao .btn-comprar {
+  background-color: #f1c40f;
+  color: #333;
+}
+.padrao .btn-comprar:hover {
+  background-color: #f39c12;
+  transform: translateY(-2px);
+}
+
+.premium {
+  border-top: 5px solid #e74c3c;
+}
+.premium .icone-plano {
+  color: #e74c3c;
+}
+.premium .icone-titulo {
+  color: #e74c3c;
+}
+.premium .btn-comprar {
+  background-color: #e74c3c;
+  color: #fff;
+}
+.premium .btn-comprar:hover {
+  background-color: #c0392b;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 781px) {
+  .planos-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+  .plano {
+    flex: 1;
+    margin: 0 10px;
+    padding: 40px 25px;
+    max-width: 350px;
+
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  .plano {
+    border-radius: 15px 15px 0 0;
+    padding-bottom: 25px;
+    border-bottom: none;
+  }
+
+  .btn-comprar {
+    width: auto;
+    padding: 12px 35px;
+  }
+}
