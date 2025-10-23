@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Previsão do Tempo - Cidades Brasileiras</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Tempo no Brasil</h1>
+      <p>Dados em tempo real de três cidades, via Open-Meteo API.</p>
+    </header>
+
+    <main class="weather-container" id="weather-container">
+      <div class="weather-card placeholder" id="card-placeholder-1">
+        <h2 class="city-name">Carregando...</h2>
+        <div class="main-info">
+          <span class="weather-icon">☁️</span>
+          <span class="temperature">--°C</span>
+        </div>
+        <p class="description">Buscando dados</p>
+
+        <div class="details">
+          <div class="detail-item">
+            <span class="detail-label">Umidade</span>
+            <span class="detail-value humidity">--%</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Vento</span>
+            <span class="detail-value wind-speed">-- km/h</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
